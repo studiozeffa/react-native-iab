@@ -1,0 +1,34 @@
+{
+  "name": "react-native-in-app-browser",
+  "version": "1.0.0",
+  "description": "An embedded in-app browser for React Native apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studiozeffa/react-native-in-app-browser.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "browser",
+    "in-app-browser",
+    "web",
+    "web-browser"
+  ],
+  "author": "Tom Spencer <fiznool@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/studiozeffa/react-native-in-app-browser/issues"
+  },
+  "homepage": "https://github.com/studiozeffa/react-native-in-app-browser#readme",
+  "devDependencies": {
+    "babel-eslint": "8.2.1",
+    "eslint": "4.15.0",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-prettier": "2.5.0",
+    "prettier": "1.10.2"
+  }
+}
