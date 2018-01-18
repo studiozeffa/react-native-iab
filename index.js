@@ -1,3 +1,1 @@
-import * as iab from './iab';
-
-export default iab;
+export * from './iab';
