@@ -1,6 +1,6 @@
-# React Native In App Browser
+# react-native-iab
 
-A module for React native, which opens a URL in an embedded 'In-App' browser, if available, falling back to using the regular browser.
+A React Native module which opens a URL in an embedded 'In-App' browser (if available), falling back to the regular browser.
 
 ## Prerequisities
 
@@ -19,31 +19,31 @@ Ensure you are running React Native 0.50 or above.
 
 ### Dependencies
 
-This library is really just a convenience wrapper around the following excellent libraries:
+This module is really just a convenience wrapper around these excellent libraries:
 
 - [react-native-safari-view](https://github.com/naoufal/react-native-safari-view)
 - [react-native-custom-tabs](https://github.com/droibit/react-native-custom-tabs)
 
-Before installing this library, please ensure the above libraries are installed and linked into the project. Follow the documentation in the links to achieve this.
+Before installing this module, please ensure the above libraries are installed and linked into the project. Follow the documentation in the links above to achieve this.
 
 ## Installation
 
 With the prereuisites fulfilled, you can install this library with yarn or npm:
 
 ``` bash
-yarn add react-native-in-app-browser
+yarn add react-native-iab
 ```
 
 or
 
 ``` bash
-npm install react-native-in-app-browser
+npm install react-native-iab
 ```
 
 ## Usage
 
 ``` js
-import { openBrowser, closeBrowser } from 'react-native-in-app-browser';
+import { openBrowser, closeBrowser } from 'react-native-iab';
 
 // Open a link to the Google homepage in the in-app browser,
 // falling back to the external browser if no in-app browser

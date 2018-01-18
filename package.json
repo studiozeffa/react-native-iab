@@ -1,5 +1,5 @@
 {
-  "name": "react-native-in-app-browser",
+  "name": "react-native-iab",
   "version": "0.1.0",
   "description": "An embedded in-app browser for React Native apps.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/studiozeffa/react-native-in-app-browser.git"
+    "url": "git+https://github.com/studiozeffa/react-native-iab.git"
   },
   "keywords": [
     "react",
@@ -21,9 +21,9 @@
   "author": "Tom Spencer <fiznool@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/studiozeffa/react-native-in-app-browser/issues"
+    "url": "https://github.com/studiozeffa/react-native-iab/issues"
   },
-  "homepage": "https://github.com/studiozeffa/react-native-in-app-browser#readme",
+  "homepage": "https://github.com/studiozeffa/react-native-iab#readme",
   "devDependencies": {
     "babel-eslint": "8.2.1",
     "eslint": "4.15.0",
