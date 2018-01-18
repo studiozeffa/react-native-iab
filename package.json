@@ -37,7 +37,7 @@
   },
   "peerDependencies": {
     "react": "^16.0.0",
-    "react-native": "^0.50.0",
+    "react-native": ">=0.50 <1",
     "react-native-custom-tabs": "^0.1.7",
     "react-native-safari-view": "^2.1.0"
   }
