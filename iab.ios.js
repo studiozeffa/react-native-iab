@@ -1,8 +1,10 @@
 import { Linking } from 'react-native';
 import SafariView from 'react-native-safari-view';
 
+let onShowSubscription = null;
+let onHideSubscription = null;
+
 export function openBrowser(url, options = {}) {
-  // TODO onShow/onHide callbacks
   SafariView.isAvailable()
     .then(() =>
       SafariView.show({
@@ -20,4 +22,30 @@ export function openBrowser(url, options = {}) {
 
 export function closeBrowser() {
   SafariView.dismiss();
+}
+
+export function onShow(cb) {
+  clearOnShow();
+  SafariView.addEventListener('onShow', cb);
+  onShowSubscription = cb;
+}
+
+export function clearOnShow() {
+  if (onShowSubscription) {
+    SafariView.removeEventListener('onShow', onShowSubscription);
+    onShowSubscription = null;
+  }
+}
+
+export function onHide(cb) {
+  clearOnHide();
+  SafariView.addEventListener('onHide', cb);
+  onHideSubscription = cb;
+}
+
+export function clearOnHide() {
+  if (onHideSubscription) {
+    SafariView.removeEventListener('onHide', onHideSubscription);
+    onHideSubscription = null;
+  }
 }

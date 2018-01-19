@@ -13,3 +13,19 @@ export function openBrowser(url, options = {}) {
 export function closeBrowser() {
   // No-op on Android
 }
+
+export function onShow(/* cb */) {
+  // No-op on Android
+}
+
+export function clearOnShow() {
+  // No-op on Android
+}
+
+export function onHide(/* cb */) {
+  // No-op on Android
+}
+
+export function clearOnHide() {
+  // No-op on Android
+}
