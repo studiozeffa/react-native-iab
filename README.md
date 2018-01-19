@@ -76,7 +76,19 @@ openBrowser('http://google.co.uk', {
 });
 
 // Close the browser (iOS only).
-closeBrowser()
+closeBrowser();
+
+// Run the passed callback when the browser is shown (iOS only).
+onShow(() => console.log('Browser shown'));
+
+// Clear a previously set onShow callback (iOS only).
+clearOnShow();
+
+// Run the passed callback when the browser is hidden (iOS only).
+onHide(() => console.log('Browser hidden'));
+
+// Clear a previously set onHide callback (iOS only).
+clearOnHide();
 ```
 
 ## Credits

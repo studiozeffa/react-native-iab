@@ -1,6 +1,6 @@
 {
   "name": "react-native-iab",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "An embedded in-app browser for React Native apps.",
   "main": "index.js",
   "scripts": {
