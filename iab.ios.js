@@ -39,13 +39,13 @@ export function clearOnShow() {
 
 export function onHide(cb) {
   clearOnHide();
-  SafariView.addEventListener('onHide', cb);
+  SafariView.addEventListener('onDismiss', cb);
   onHideSubscription = cb;
 }
 
 export function clearOnHide() {
   if (onHideSubscription) {
-    SafariView.removeEventListener('onHide', onHideSubscription);
+    SafariView.removeEventListener('onDismiss', onHideSubscription);
     onHideSubscription = null;
   }
 }
